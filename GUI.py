@@ -46,3 +46,19 @@ mapel_list = [
 ]
 
 entries = []
+
+# Membuat 10 Input Nilai Mata Pelajaran
+for i, mapel in enumerate(mapel_list):
+    lbl = tk.Label(
+        frame_input,
+        text=f"{mapel}:",
+        font=("Helvetica", 9),
+        anchor="w",
+        bg="#f0f4f8",
+        width=18,
+    )
+    lbl.grid(row=i, column=0, padx=5, pady=4, sticky="w")
+
+    entry = ttk.Entry(frame_input, width=15)
+    entry.grid(row=i, column=1, padx=5, pady=4)
+    entries.append(entry)
