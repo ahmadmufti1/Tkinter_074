@@ -79,3 +79,13 @@ btn_prediksi = tk.Button(
     cursor="hand2",
 )
 btn_prediksi.pack(pady=15)
+
+# Label Luaran Hasil Prediksi
+label_hasil = tk.Label(
+    root,
+    text="Hasil Prediksi: -",
+    font=("Helvetica", 11, "bold"),
+    fg="#0f766e",
+    bg="#f0f4f8",
+)
+label_hasil.pack(pady=(0, 20))
