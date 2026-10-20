@@ -26,4 +26,7 @@ label_judul = tk.Label(
     text="Aplikasi Prediksi Prodi Pilihan",
     fg="#1e293b",
 )
-label_judul.pack()
+
+# Frame untuk pembungkus Input Mata Pelajaran
+frame_input = tk.Frame(root, bg="#f0f4f8")
+frame_input.pack(padx=20, pady=5)
