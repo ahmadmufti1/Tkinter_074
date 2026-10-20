@@ -30,3 +30,19 @@ label_judul = tk.Label(
 # Frame untuk pembungkus Input Mata Pelajaran
 frame_input = tk.Frame(root, bg="#f0f4f8")
 frame_input.pack(padx=20, pady=5)
+
+# Daftar Mata Pelajaran
+mapel_list = [
+    "Matematika",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "IBD",
+    "PM",
+    "PROBSTAT",
+    "Pancasila",
+    "Teknologi Server",
+    "Switching",
+    "Informatika",
+]
+
+entries = []
