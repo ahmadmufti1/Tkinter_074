@@ -13,3 +13,9 @@ def prediksi_prodi():
     # untuk menampilkan "Teknologi Informasi" apa pun inputnya
     label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
 
+
+# Membuat Window Utama
+root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("450x520")
+root.configure(bg="#f0f4f8")
