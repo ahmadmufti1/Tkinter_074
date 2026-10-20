@@ -1,1 +1,0 @@
-import tikinter as tk
