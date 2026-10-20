@@ -62,3 +62,20 @@ for i, mapel in enumerate(mapel_list):
     entry = ttk.Entry(frame_input, width=15)
     entry.grid(row=i, column=1, padx=5, pady=4)
     entries.append(entry)
+
+# Tombol "Hasil Prediksi"
+btn_prediksi = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    command=prediksi_prodi,
+    font=("Helvetica", 10, "bold"),
+    bg="#2563eb",
+    fg="white",
+    activebackground="#1d4ed8",
+    activeforeground="white",
+    padx=15,
+    pady=5,
+    relief="flat",
+    cursor="hand2",
+)
+btn_prediksi.pack(pady=15)
